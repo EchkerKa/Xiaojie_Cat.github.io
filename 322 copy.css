@@ -1,0 +1,370 @@
+* {
+    transition: 1s;
+
+}
+body {
+background-image: url(img/background.jpg);
+}
+.house {
+   width: 1200px;
+   height: 1600px; 
+   margin:auto;
+}
+.vvv {
+    color: rgba(240, 248, 255, 0);
+}
+.instagram {
+   
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+}
+.insta {
+    max-width: 100%;
+    border-radius: 20px;
+}
+.twitter {
+    height: 75px;
+    width: 75px;
+    float: right;
+    margin-right: 12.5px;
+    margin-top: 12.5px;
+    
+}
+.panel {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+    
+}
+.top {
+    height: 28.125%; /* 450px */
+}
+.pic1-left {
+   float:left;
+   width: 37.5%;
+   height: 100%;
+   margin-left: 10px;
+   margin-top: 10px;
+  
+   
+}
+.zagolovok {
+    font-size: 45px;
+}
+.text1-right {
+    width: 60%;
+    height: 100%;
+    float:right;
+    background-color:  rgb(77, 77, 77);
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.9;
+}
+
+.content {
+    width: 100%;
+  
+    margin-top: 20px;
+}
+
+ 
+.line-left1 {
+    width: 200px;
+    color: rgb(37, 69, 99);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    user-select: none;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius:10px;
+   
+}
+.line-left2 {
+    width: 200px;
+    color: rgb(37, 69, 99);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    user-select: none;
+    height: 200px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius:10px;
+    
+}
+.line-left3 {
+    width: 200px;
+    color: rgb(37, 69, 99);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    user-select: none;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 70px;
+    border-radius:10px;
+    
+}   
+
+.cube {
+    width: 100%;
+    background-color: rgb(211, 147, 147);
+    height: 595px;
+    background-image: url(img/xiao_big.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.image  {
+    max-width: 100%;
+}
+
+
+@media (max-width: 979px) {
+    .house {
+        width: 965px;
+        height: 1600px; 
+        margin:auto;
+     }
+     .line-left1 {
+        height: 100%;
+        max-width: 100px;
+        color: rgb(37, 69, 99);
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        user-select: none;
+        float: left;
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius:10px;
+        
+    }
+    .line-left2 {
+        height: 100%;
+        max-width: 100px;
+        color: rgb(37, 69, 99);
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        user-select: none;
+        float: right;
+        margin-right: 50px;
+        margin-top: 50px;
+        border-radius:10px;
+        
+    }
+    .line-left3 {
+        height: 100%;
+        max-width: 100px;
+        color: rgb(37, 69, 99);
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        user-select: none;
+        float: left;
+        margin-left: 50px;
+        margin-top: 70px;
+        border-radius:10px;
+        
+    }  
+     .pic1-left {
+        float:none;
+        width: 100%;
+        height: 450px;
+        margin-left: 0px;
+        margin-top: 10px;
+        
+     }
+     .text1-right {
+         width: 40%;
+         height: 80%;
+         float:right;
+         background-color: lightcoral;
+         margin-right: 10px;
+         margin-top: 10px;
+         border-radius: 10px;
+         text-align: center;
+         color:black;
+         font-size: 22px;
+         font-family: 'Courier New', Courier, monospace;
+         opacity: 0.9;
+     }
+     .panel {
+         height: 100px;
+         width: 100%;
+        
+         
+     }
+     .top {
+         height: 28.125%; /* 450px */
+     }
+     .pic1-left {
+        float:left;
+        width: 50%;
+        height: 100%;
+        margin-left: 10px;
+        margin-top: 10px;
+     }
+     .text1-right {
+        width: 452.5px;
+        height: 482.5px;
+        float:right;
+        background-color:  rgb(77, 77, 77);
+        margin-right: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font-size: 22px;
+        font-family: 'Courier New', Courier, monospace;
+        opacity: 0.9;
+     }
+     .cube {
+         width: 100%;
+         height: 100%;
+         float: none;
+         background-image: url(img/xiao_big.jpg);
+     }
+     .zagolovok {
+        font-size: 30px;
+    }
+    }
+ 
+
+    @media (max-width: 767px) {
+        .house {
+            width: 740px;
+            height: 1600px; 
+            
+            margin:auto;
+            
+         }
+         .pic1-left {
+            float:none;
+            width: 100%;
+            height: 450px;
+            margin-left: 0px;
+            margin-top: 10px;
+            
+         }
+         
+         .panel {
+             height: 100px;
+             width: 100%;
+            
+             
+         }
+         .top {
+             height: 28.125%; /* 450px */
+         }
+         .pic1-left {
+            float:left;
+            width: 50%;
+            height: 100%;
+            margin-left: 10px;
+            margin-top: 10px;
+         }
+         .text1-right {
+            width: 46%;
+            height: 370px;
+            float:right;
+            background-color:  rgb(77, 77, 77);
+            margin-right: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+            color:rgb(255, 255, 255);
+            font-size: 16px;
+            font-family: 'Courier New', Courier, monospace;
+            opacity: 0.9;
+         }
+         .cube {
+             width: 100%;
+             height: 100%;
+             float: none;
+             background-image: url(img/xiao_big.jpg);
+         }
+         .zagolovok {
+            font-size: 25px;
+        }
+       
+
+
+
+    }
+    @media (max-width: 480px) {
+
+        .house {
+            width: 465px;
+            height: 1600px; 
+            
+            margin:auto;
+            
+         }
+         .pic1-left {
+            float:none;
+            width: 100%;
+            height: 450px;
+            margin-left: 0px;
+            margin-top: 10px;
+            
+         }
+         
+         .panel {
+             height: 100px;
+             width: 100%;
+            
+             
+         }
+         .top {
+             height: 28.125%; /* 450px */
+         }
+         .pic1-left {
+            float:left;
+            width: 50%;
+            height: 100%;
+            margin-left: 5px;
+            margin-top: 10px;
+         }
+         .text1-right {
+            width: 46%;
+            height: 232.5px;
+            float:right;
+            background-color:  rgb(77, 77, 77);
+            margin-right: 5px;
+            margin-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+            color:rgb(255, 255, 255);
+            font-size: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            opacity: 0.9;
+         }
+         .cube {
+             width: 100%;
+             height: 100%;
+             float: none;
+             background-image: url(img/xiao_big.jpg);
+         }
+         .zagolovok {
+            font-size: 15px;
+        }
+
+
+
+    }

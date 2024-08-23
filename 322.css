@@ -1,0 +1,301 @@
+* {
+    transition: 1s;
+
+}
+body {
+background-image: url(img/background.jpg);
+}
+.house {
+   width: 1200px;
+   height: 1600px; 
+   margin:auto;
+}
+.vvv {
+    color: rgba(240, 248, 255, 0);
+}
+.instagram {
+   
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+}
+.insta {
+    max-width: 100%;
+    border-radius: 20px;
+}
+.twitter {
+    height: 75px;
+    width: 75px;
+    float: right;
+    margin-right: 12.5px;
+    margin-top: 12.5px;
+    
+}
+.panel {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+    
+}
+.top {
+    height: 28.125%; /* 450px */
+}
+.pic1-left {
+   float:left;
+   width: 37.5%;
+   height: 100%;
+   margin-left: 10px;
+   margin-top: 10px;
+  
+   
+}
+.zagolovok {
+    font-size: 45px;
+}
+.text1-right {
+    width: 60%;
+    height: 100%;
+    float:right;
+    background-color:  rgb(77, 77, 77);
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.9;
+}
+
+.content {
+    width: 100%;
+  
+    margin-top: 20px;
+}
+
+ 
+  
+
+.xiao_pic {
+    width: 100%;
+    height: 500px;
+    box-shadow:  0 0 15px wheat;
+}
+
+
+.image  {
+    max-width: 100%;
+}
+
+
+.kube-1 {
+    height: 225px;
+    width: 100%;
+    background-color: coral;
+    margin-top: 7px;
+}
+.kube-2 {
+    height: 225px;
+    width: 100%;
+    background-color: tomato;
+    margin-top: 10px;
+}
+
+
+
+
+
+@media (max-width: 979px) {
+    .house {
+        width: 965px;
+        height: 1600px; 
+        margin:auto;
+     }
+     
+     .pic1-left {
+        float:none;
+        width: 100%;
+        height: 450px;
+        margin-left: 0px;
+        margin-top: 10px;
+        
+     }
+     .text1-right {
+         width: 40%;
+         height: 80%;
+         float:right;
+         background-color: lightcoral;
+         margin-right: 10px;
+         margin-top: 10px;
+         border-radius: 10px;
+         text-align: center;
+         color:black;
+         font-size: 22px;
+         font-family: 'Courier New', Courier, monospace;
+         opacity: 0.9;
+     }
+     .panel {
+         height: 100px;
+         width: 100%;
+        
+         
+     }
+     .top {
+         height: 28.125%; /* 450px */
+     }
+     .pic1-left {
+        float:left;
+        width: 50%;
+        height: 100%;
+        margin-left: 10px;
+        margin-top: 10px;
+     }
+     .text1-right {
+        width: 452.5px;
+        height: 482.5px;
+        float:right;
+        background-color:  rgb(77, 77, 77);
+        margin-right: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font-size: 22px;
+        font-family: 'Courier New', Courier, monospace;
+        opacity: 0.9;
+     }
+     .xiao_pic {
+         width: 100%;
+         height: 400px;
+         float: none;
+         margin-top: 10px;
+     }
+     .zagolovok {
+        font-size: 30px;
+    }
+    }
+ 
+
+    @media (max-width: 767px) {
+        .house {
+            width: 740px;
+            height: 1600px; 
+            
+            margin:auto;
+            
+         }
+         .pic1-left {
+            float:none;
+            width: 100%;
+            height: 450px;
+            margin-left: 0px;
+            margin-top: 10px;
+            
+         }
+         
+         .panel {
+             height: 100px;
+             width: 100%;
+            
+             
+         }
+         .top {
+             height: 0px; 
+         }
+         .pic1-left {
+            float:left;
+            width: 50%;
+            height: 100%;
+            margin-left: 10px;
+            margin-top: 10px;
+         }
+         .text1-right {
+            width: 46%;
+            height: 370px;
+            float:right;
+            background-color:  rgb(77, 77, 77);
+            margin-right: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+            color:rgb(255, 255, 255);
+            font-size: 16px;
+            font-family: 'Courier New', Courier, monospace;
+            opacity: 0.9;
+         }
+         .xiao_pic {
+             width: 100%;
+             height: 450px;
+             float: none;
+            
+         }
+         .zagolovok {
+            font-size: 25px;
+        }
+       
+
+
+
+    }
+    @media (max-width: 480px) {
+
+        .house {
+            width: 465px;
+            height: 1600px; 
+            
+            margin:auto;
+            
+         }
+         .pic1-left {
+            float:none;
+            width: 100%;
+            height: 450px;
+            margin-left: 0px;
+            margin-top: 10px;
+            
+         }
+         
+         .panel {
+             height: 100px;
+             width: 100%;
+            
+             
+         }
+         .top {
+             height: 0px;
+         }
+         .pic1-left {
+            float:left;
+            width: 50%;
+            height: 100%;
+            margin-left: 5px;
+            margin-top: 10px;
+         }
+         .text1-right {
+            width: 46%;
+            height: 232.5px;
+            float:right;
+            background-color:  rgb(77, 77, 77);
+            margin-right: 5px;
+            margin-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+            color:rgb(255, 255, 255);
+            font-size: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            opacity: 0.9;
+         }
+         .xiao_pic {
+             width: 100%;
+             height: 450px;
+             float: none;
+         }
+         .zagolovok {
+            font-size: 15px;
+        }
+
+
+
+    }
